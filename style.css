@@ -26,9 +26,31 @@ body {
     background-color: #F8F8F8;
     border-radius: 16px;
     padding: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 16px;
+}
+
+.card__desctiption--accent {
+    color: #ED6D05;
 }
 
 .card__foto {
     max-width: 148px;
     border-radius: 74px;
+}
+
+.card__link {
+    text-decoration: none;
+    color: #E20613;
+}
+
+.card__name {
+    font-size: 36px;
+}
+
+.card__occupation {
+    color: #545454;
+    font-style: italic;
+    font-size: 18px;
 }
