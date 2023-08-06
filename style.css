@@ -10,6 +10,25 @@ html {
 *:after {
     box-sizing: inherit;
 }
-
 /* normalizacja - END */
 
+body {
+    background-color: #2C2141;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.card {
+    background-color: #F8F8F8;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.card__foto {
+    max-width: 148px;
+    border-radius: 74px;
+}
